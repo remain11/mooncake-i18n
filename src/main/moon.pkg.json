@@ -1,0 +1,10 @@
+{
+  "is-main": true,
+  "import": [
+    "remain11/i18n/lib",
+    {
+     "path": "remain11/i18n/i18n_converter",
+      "alias": "f"
+    }
+  ]
+}
