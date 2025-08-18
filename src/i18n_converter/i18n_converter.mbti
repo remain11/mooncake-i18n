@@ -1,0 +1,14 @@
+// Generated using `moon info`, DON'T EDIT IT
+package "remain11/i18n/i18n_converter"
+
+// Values
+fn i18n(String) -> String
+
+// Errors
+
+// Types and methods
+
+// Type aliases
+
+// Traits
+
