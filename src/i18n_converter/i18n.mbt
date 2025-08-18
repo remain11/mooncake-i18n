@@ -10,12 +10,11 @@ test {
 ///|
 pub fn i18n(s : String) -> String {
   if s.length() <= 2 {
-    return s
+    s
   } else {
     let x = s.length() - 2
-    let res = s.substring(start=0, end=1) +
-      x.to_string() +
-      s.substring(start=s.length() - 1, end=s.length())
-    return res
+    s.substring(start=0, end=1) +
+    x.to_string() +
+    s.substring(start=s.length() - 1, end=s.length())
   }
 }
